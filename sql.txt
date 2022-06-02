@@ -1,0 +1,1 @@
+SELECT invoice_id FROM invoice_particulars where invoice_id  NOT IN (SELECT id FROM invoices);
